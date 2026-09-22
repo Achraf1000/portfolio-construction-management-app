@@ -2,7 +2,7 @@
 
 Public portfolio presentation of a mobile platform designed to coordinate construction-site operations, field teams and daily workflows.
 
-> This repository contains presentation material only. The original application was developed in a professional context and remains in a separate private repository. No source code, credentials, production data or confidential documents are included here.
+> This repository contains presentation material and static screenshots approved for public portfolio use. The original application was developed in a professional context and remains in a separate private repository. No source code, credentials or confidential documents are included here.
 
 ## Project overview
 
@@ -45,13 +45,25 @@ See [docs/architecture.md](docs/architecture.md) for the sanitized technical ove
 
 ## Screenshots
 
-Anonymized screenshots will be added to `docs/screenshots/` using fictional or fully masked data:
+### Multilingual authentication
 
-- `login.png`
-- `dashboard.png`
-- `task-management.png`
+| French | Arabic |
+| --- | --- |
+| ![French login](docs/screenshots/login-fr.jpeg) | ![Arabic login](docs/screenshots/login-ar.jpeg) |
 
-No employee name, email, customer, site address, project reference, company logo or production value may appear in these images.
+### Team operations
+
+| Team dashboard | Team setup | Task delegation |
+| --- | --- | --- |
+| ![Team dashboard](docs/screenshots/team-dashboard.jpeg) | ![Team setup](docs/screenshots/team-setup.jpeg) | ![Task delegation](docs/screenshots/task-delegation.jpeg) |
+
+### Field workflows
+
+| Site selection | Face attendance | Truck reception |
+| --- | --- | --- |
+| ![Site selection](docs/screenshots/site-list.jpeg) | ![Face attendance](docs/screenshots/face-attendance.jpeg) | ![Truck reception](docs/screenshots/truck-reception.jpeg) |
+
+Additional views covering performance, attendance history, onboarding and personnel management are available in [`docs/screenshots`](docs/screenshots/).
 
 ## My contribution
 
@@ -67,7 +79,7 @@ No employee name, email, customer, site address, project reference, company logo
 
 ## Confidentiality
 
-The implementation, internal identifiers, infrastructure configuration and business data are intentionally excluded. This repository is a portfolio summary and is not a distributable version of the original product.
+The implementation, infrastructure configuration and confidential business data are intentionally excluded. The published images are static interface captures approved for portfolio use; this repository is not a distributable version of the original product.
 
 ## License
 
